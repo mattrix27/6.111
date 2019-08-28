@@ -1,0 +1,9 @@
+NUM_USER_FILES
+2
+s
+user_file_1
+lpset7.v
+s
+user_file_2
+../lpset6/crc_tf.v
+s

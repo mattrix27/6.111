@@ -1,0 +1,14 @@
+# Output products list for <red_coe>
+deathstar.mif
+red_coe.asy
+red_coe.mif
+red_coe.ngc
+red_coe.sym
+red_coe.v
+red_coe.veo
+red_coe.vhd
+red_coe.vho
+red_coe.xco
+red_coe_blk_mem_gen_v2_8_xst_1.ngc_xst.xrpt
+red_coe_flist.txt
+red_coe_xmdf.tcl

@@ -1,0 +1,100 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/afs/athena.mit.edu/user/m/t/mtung/6.111/lab3/lpset6
+T_opt
+Z1 VEGR8bVOZZZB]MIHDPT:JW2
+Z2 04 6 4 work crc_tf fast 0
+Z3 04 4 4 work glbl fast 0
+Z4 =1-f44d30467170-5bb5481c-64aa2-175b
+Z5 o-quiet -auto_acc_if_foreign -work work -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver
+Z6 OE;O;6.4a;39
+T_opt1
+Z7 VR9_LMW^8XEcmAmflbj@P^1
+Z8 04 6 4 work lpset6 fast 0
+R3
+Z9 =1-f44d30467170-5bb55ab5-c2bf2-1b8a
+R5
+R6
+T_opt2
+Z10 VUhAT`Q4K`5ZiI9Tm:D`b41
+R2
+R3
+Z11 =1-f44d30467170-5bb561a8-63755-1dad
+R5
+R6
+T_opt3
+Z12 V[;O;ja6QBnZ[kUz>Ddz`Q3
+R2
+R3
+Z13 =1-f44d30467170-5bb56109-11221-1d8e
+R5
+R6
+T_opt4
+Z14 VG9a=ANKWeTKFXI][>VP`c3
+R2
+R3
+Z15 =1-f44d30467170-5bb561ff-d353f-1dcc
+R5
+R6
+T_opt5
+Z16 V[MDBfLC`RF?nTPkGb[fXo1
+R2
+R3
+Z17 =1-f44d30467170-5bb5636d-50479-1e21
+R5
+R6
+T_opt6
+VG]R:U;Fa;RP;MQG86LJDk1
+R2
+R3
+Z18 =1-f44d30467170-5bb56493-187bb-1e41
+R5
+R6
+T_opt7
+Z19 VPmkD7hUhQ6U0KiQ:Y^H6;2
+R2
+R3
+Z20 =1-f44d30467170-5bb55caf-c1e46-1c73
+R5
+R6
+vcrc_tf
+Z21 IFWn4T6QHhF3hhAkAgbnYa1
+Z22 V[JhFIJmQS5N88j2nN@RU92
+Z23 w1538605295
+Z24 8crc_tf.v
+Z25 Fcrc_tf.v
+L0 8
+Z26 OE;L;6.4a;39
+r1
+31
+Z27 o+acc -L mtiAvm -L mtiOvm -L mtiUPF
+Z28 !s100 njNMfnmgz0VVWKe4Hd8ED3
+!s85 0
+vglbl
+Z29 IB;@1jEXmEfQXL`;Kf0IBZ3
+Z30 VnN]4Gon>inod6>M^M2[SV1
+Z31 w1202685744
+Z32 8/afs/csail.mit.edu/proj/redsocs/Xilinx10.1/ISE/verilog/src/glbl.v
+Z33 F/afs/csail.mit.edu/proj/redsocs/Xilinx10.1/ISE/verilog/src/glbl.v
+L0 5
+R26
+r1
+31
+R27
+Z34 !s100 T?5S;>bN`@zG_25]R_4A33
+!s85 0
+vlpset6
+Z35 I;M52oF>_a8NeSk5OW]KMk0
+Z36 VH2UGcEkGG[U4Aio[>c<K90
+Z37 w1538614415
+Z38 8lpset6.v
+Z39 Flpset6.v
+L0 21
+R26
+r1
+31
+R27
+Z40 !s100 8B@7bO9j?=N7jn86^?daA0
+!s85 0

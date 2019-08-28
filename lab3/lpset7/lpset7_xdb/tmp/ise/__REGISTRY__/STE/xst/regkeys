@@ -1,0 +1,6 @@
+CommandLine
+/afs/csail.mit.edu/proj/redsocs/Xilinx10.1/ISE/bin/lin64/unwrapped/xst -ise /afs/athena.mit.edu/user/m/t/mtung/6.111/lab3/lpset7/lpset7.ise -intstyle ise -ifn /afs/athena.mit.edu/user/m/t/mtung/6.111/lab3/lpset7/lpset7.xst -ofn /afs/athena.mit.edu/user/m/t/mtung/6.111/lab3/lpset7/lpset7.syr -finalclean 1
+s
+FormatString
+xst [-ifn <InputFile>] [-ofn <OutputFile>] [-ise <iseProjectFile>] [--quiet] [-intstyle <Style>] [--deb <DebugLevel>] [--finalclean <Clean>] [--PcubeFlow] [--globOptFlow] [--XstNtrc]
+s

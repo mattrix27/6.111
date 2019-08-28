@@ -1,0 +1,13 @@
+# Output products list for <image_coe>
+image_coe.asy
+image_coe.mif
+image_coe.ngc
+image_coe.sym
+image_coe.v
+image_coe.veo
+image_coe.vhd
+image_coe.vho
+image_coe.xco
+image_coe_blk_mem_gen_v2_8_xst_1.ngc_xst.xrpt
+image_coe_flist.txt
+image_coe_xmdf.tcl

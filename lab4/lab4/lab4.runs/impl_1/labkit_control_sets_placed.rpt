@@ -1,0 +1,82 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Wed Nov  7 17:15:30 2018
+| Host         : eecs-digital-27 running 64-bit Ubuntu 14.04.5 LTS
+| Command      : report_control_sets -verbose -file labkit_control_sets_placed.rpt
+| Design       : labkit
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    29 |
+| Unused register locations in slices containing registers |   143 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              76 |           34 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              70 |           20 |
+| Yes          | No                    | No                     |              21 |           11 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             114 |           30 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++--------------------------------------------+-----------------------------------+-----------------------------------+------------------+----------------+
+|                Clock Signal                |           Enable Signal           |          Set/Reset Signal         | Slice Load Count | Bel Load Count |
++--------------------------------------------+-----------------------------------+-----------------------------------+------------------+----------------+
+|  clock_25mhz_BUFG                          | debounce_reprgm/new_i_1_n_0       |                                   |                1 |              1 |
+|  clock_25mhz_BUFG                          | debounce_hidden/new_i_1__0_n_0    |                                   |                1 |              1 |
+|  fsm/restart_timer_reg_i_2_n_0             |                                   |                                   |                1 |              1 |
+|  datimer/doner_reg_0                       |                                   |                                   |                1 |              1 |
+|  clock_25mhz_BUFG                          | debounce_passenger/new_i_1__2_n_0 |                                   |                1 |              1 |
+|  clock_25mhz_BUFG                          | debounce_brake/new_i_1__3_n_0     |                                   |                1 |              1 |
+|  clock_25mhz_BUFG                          |                                   | fsm/LED_OBUF[0]                   |                1 |              1 |
+|  clock_25mhz_BUFG                          | debounce_driver/new_i_1__1_n_0    |                                   |                1 |              1 |
+|  CLK100MHZ_IBUF_BUFG                       |                                   |                                   |                1 |              2 |
+|  fsm/timer_state_reg[1]_i_2_n_0            |                                   |                                   |                1 |              2 |
+|  fsm/siren_on_reg_i_2_n_0                  |                                   |                                   |                1 |              3 |
+|  clock_25mhz_BUFG                          |                                   | display/strobe[3]_i_1_n_0         |                1 |              3 |
+|  debounce_reprgm/passenger_delay_reg[3][0] |                                   | SW_IBUF[15]                       |                1 |              4 |
+|  clock_25mhz_BUFG                          | timebysecond/E[0]                 | fsm/SR[0]                         |                1 |              4 |
+|  debounce_reprgm/E[0]                      |                                   |                                   |                1 |              4 |
+|  debounce_reprgm/alarm_on_reg[3][0]        |                                   | SW_IBUF[15]                       |                2 |              4 |
+|  debounce_reprgm/arm_delay_reg[0][0]       |                                   | SW_IBUF[15]                       |                2 |              4 |
+|  debounce_reprgm/driver_delay_reg[0][0]    |                                   | SW_IBUF[15]                       |                1 |              4 |
+|  clock_25mhz_BUFG                          |                                   | vga1/hreset                       |                3 |             10 |
+|  clock_25mhz_BUFG                          | vga1/hreset                       | vga1/vcount0                      |                4 |             10 |
+|  clock_25mhz_BUFG                          |                                   | dasiren/clear                     |                4 |             15 |
+|  clock_25mhz_BUFG                          | dasiren/clear                     |                                   |                6 |             16 |
+|  clock_25mhz_BUFG                          | debounce_driver/count             | debounce_driver/new_i_1__1_n_0    |                5 |             20 |
+|  clock_25mhz_BUFG                          | debounce_passenger/count          | debounce_passenger/new_i_1__2_n_0 |                5 |             20 |
+|  clock_25mhz_BUFG                          | debounce_hidden/count             | debounce_hidden/new_i_1__0_n_0    |                5 |             20 |
+|  clock_25mhz_BUFG                          | debounce_reprgm/count             | debounce_reprgm/new_i_1_n_0       |                5 |             20 |
+|  clock_25mhz_BUFG                          | debounce_brake/count              | debounce_brake/new_i_1__3_n_0     |                5 |             20 |
+|  clock_25mhz_BUFG                          |                                   | debounce_reprgm/LED_OBUF[0]       |                5 |             25 |
+|  clock_25mhz_BUFG                          |                                   |                                   |               28 |             63 |
++--------------------------------------------+-----------------------------------+-----------------------------------+------------------+----------------+
+
+

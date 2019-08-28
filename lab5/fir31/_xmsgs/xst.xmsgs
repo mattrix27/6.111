@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="Xst" num="1607" delta="unknown" >Contents of array &lt;<arg fmt="%s" index="1">sample</arg>&gt; may be accessed with an index that does not cover the full array size.
+</msg>
+
+<msg type="info" file="Xst" num="1607" delta="unknown" >Contents of array &lt;<arg fmt="%s" index="1">sample</arg>&gt; may be accessed with an index that does not cover the full array size.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">reset</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="643" delta="unknown" >&quot;<arg fmt="%s" index="1">fir31.v</arg>&quot; line <arg fmt="%d" index="2">23</arg>: The result of a <arg fmt="%d" index="3">10</arg>x<arg fmt="%d" index="4">9</arg>-bit multiplication is partially used. Only the <arg fmt="%d" index="5">18</arg> least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+</msg>
+
+<msg type="info" file="Xst" num="0" delta="unknown" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sample</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="2385" delta="unknown" >HDL ADVISOR - You can improve the performance of the multiplier <arg fmt="%s" index="1">Mmult_y_mult0001</arg> by adding <arg fmt="%d" index="2">1</arg> register level(s).
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">offset_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fir31</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">offset_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fir31</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">offset_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fir31</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">offset_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fir31</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">offset_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fir31</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">offset_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fir31</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">offset_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fir31</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">offset_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fir31</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">offset_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fir31</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">offset_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fir31</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">offset_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fir31</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">offset_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fir31</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">offset_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fir31</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">offset_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fir31</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">offset_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fir31</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">offset_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fir31</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">offset_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fir31</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">offset_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fir31</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">offset_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fir31</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">offset_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fir31</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">offset_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fir31</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">offset_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fir31</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">offset_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fir31</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">offset_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fir31</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">offset_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fir31</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">offset_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fir31</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">offset_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fir31</arg>&gt;.
+</msg>
+
+</messages>
+

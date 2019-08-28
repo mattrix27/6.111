@@ -1,0 +1,50 @@
+# //  ModelSim SE 6.4a Aug 28 2008 Linux 4.2.0-42-generic
+# //
+# //  Copyright 1991-2008 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do {fir31_test.fdo} 
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE vlog 6.4a Compiler 2008.08 Aug 28 2008
+# -- Compiling module fir31
+# -- Compiling module coeffs31
+# 
+# Top level modules:
+# 	fir31
+# Model Technology ModelSim SE vlog 6.4a Compiler 2008.08 Aug 28 2008
+# -- Compiling module fir31_test
+# 
+# Top level modules:
+# 	fir31_test
+# Model Technology ModelSim SE vlog 6.4a Compiler 2008.08 Aug 28 2008
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# vsim -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver -lib work -t 1ps fir31_test glbl 
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: mtung  Hostname: eecs-digital-26  ProcessID: 12070
+#           Attempting to use alternate WLF file "./wlftMapvN3".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftMapvN3
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftMapvN3
+# Design is being optimized...
+# Loading work.fir31_test(fast)
+# Loading work.fir31(fast)
+# ** Warning: (vsim-3009) [TSCALE] - Module 'fir31' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /fir31_test/dut
+# Loading work.coeffs31(fast)
+# ** Warning: (vsim-3009) [TSCALE] - Module 'coeffs31' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /fir31_test/dut/a
+# Loading work.glbl(fast)
+# .main_pane.mdi.interior.cs.vm.paneset.cli_0.wf.clip.cs.pw.wf
+# .main_pane.workspace.interior.cs.nb.canvas.notebook.cs.page2.cs
+# .main_pane.signals.interior.cs
+run 100ms
+# Break in Module fir31_test at ../fir31_test.v line 53

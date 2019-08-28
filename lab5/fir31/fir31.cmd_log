@@ -1,0 +1,4 @@
+xst -ise "/afs/athena.mit.edu/user/m/t/mtung/6.111/lab5/fir31/fir31.ise" -intstyle ise -ifn "/afs/athena.mit.edu/user/m/t/mtung/6.111/lab5/fir31/fir31.xst" -ofn "/afs/athena.mit.edu/user/m/t/mtung/6.111/lab5/fir31/fir31.syr"
+xst -ise "/afs/athena.mit.edu/user/m/t/mtung/6.111/lab5/fir31/fir31.ise" -intstyle ise -ifn "/afs/athena.mit.edu/user/m/t/mtung/6.111/lab5/fir31/fir31.xst" -ofn "/afs/athena.mit.edu/user/m/t/mtung/6.111/lab5/fir31/fir31.syr"
+xst -ise "/afs/athena.mit.edu/user/m/t/mtung/6.111/lab5/fir31/fir31.ise" -intstyle ise -ifn "/afs/athena.mit.edu/user/m/t/mtung/6.111/lab5/fir31/fir31.xst" -ofn "/afs/athena.mit.edu/user/m/t/mtung/6.111/lab5/fir31/fir31.syr"
+xst -ise "/afs/athena.mit.edu/user/m/t/mtung/6.111/lab5/fir31/fir31.ise" -intstyle ise -ifn "/afs/athena.mit.edu/user/m/t/mtung/6.111/lab5/fir31/fir31.xst" -ofn "/afs/athena.mit.edu/user/m/t/mtung/6.111/lab5/fir31/fir31.syr"

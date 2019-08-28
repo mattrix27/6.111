@@ -1,0 +1,38 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/afs/athena.mit.edu/user/m/t/mtung/6.111/lab2
+T_opt
+VAP:ZJo^KHb1ThR4A3ajF<1
+04 4 4 work test fast 0
+=1-f44d3046780b-5ba1c58a-e12ee-6019
+o-quiet -auto_acc_if_foreign -work work
+OE;O;6.4a;39
+vLS163
+!s100 ;`8ZgeHCk7Hmm>@:A20F72
+I=LD;dU9M;NCj`LU3_4b==0
+VAgW8Q]Q2bzVRSkAGnWg<c3
+Z1 w1537328342
+Z2 8lab2_1.v
+Z3 Flab2_1.v
+L0 9
+Z4 OE;L;6.4a;39
+r1
+!s85 0
+31
+Z5 o-L mtiAvm -L mtiOvm -L mtiUPF
+n@l@s163
+vtest
+!s100 HoRRQ1B=IR536QkXF<HSU2
+I7fHJJM0X>0TSF0:f<JWjY3
+Vk<3<[f=78GX=_HO53D;7>3
+R1
+R2
+R3
+L0 26
+R4
+r1
+!s85 0
+31
+R5

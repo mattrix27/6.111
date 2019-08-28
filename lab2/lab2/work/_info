@@ -1,0 +1,51 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/afs/athena.mit.edu/user/m/t/mtung/6.111/lab2/lab2
+T_opt
+V_EQ3?V1zc_8X4OZhA;8ZQ2
+04 8 4 work ls163_tb fast 0
+04 4 4 work glbl fast 0
+Z1 =1-f44d30467170-5ba2c9a7-e21a3-de1
+Z2 o-quiet -auto_acc_if_foreign -work work -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver
+Z3 OE;O;6.4a;39
+vglbl
+Z4 IB;@1jEXmEfQXL`;Kf0IBZ3
+Z5 VnN]4Gon>inod6>M^M2[SV1
+Z6 w1202685744
+Z7 8/afs/csail.mit.edu/proj/redsocs/Xilinx10.1/ISE/verilog/src/glbl.v
+Z8 F/afs/csail.mit.edu/proj/redsocs/Xilinx10.1/ISE/verilog/src/glbl.v
+L0 5
+Z9 OE;L;6.4a;39
+r1
+31
+Z10 o+acc -L mtiAvm -L mtiOvm -L mtiUPF
+Z11 !s100 T?5S;>bN`@zG_25]R_4A33
+!s85 0
+vls163_lab2
+Z12 IE?_?nNVonimKR2W3YRbk73
+Z13 Vo6;md<bTEOCl9Se:fF=>31
+Z14 w1537394778
+Z15 8ls163_lab2.v
+Z16 Fls163_lab2.v
+L0 21
+R9
+r1
+31
+R10
+Z17 !s100 2j4gE86=eDiSHO9>:B]?V2
+!s85 0
+vls163_tb
+Z18 IfQL@W=V1bSAzZiKdb=aZ;2
+Z19 VQSKkXW@Z][@:XcN8Lko_60
+Z20 w1537395083
+Z21 8ls163_tb.v
+Z22 Fls163_tb.v
+L0 25
+R9
+r1
+31
+R10
+Z23 !s100 SjPz;gHeib_iWW40<QM[h3
+!s85 0

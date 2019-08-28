@@ -1,0 +1,79 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/afs/athena.mit.edu/user/m/t/mtung/6.111/lab3/lpset7
+T_opt
+Z1 VlV;0NSeJmohbKjaGj4WW90
+Z2 04 6 4 work crc_tf fast 0
+Z3 04 4 4 work glbl fast 0
+Z4 =1-f44d30467170-5bbd4476-3b7f7-1c63
+Z5 o-quiet -auto_acc_if_foreign -work work -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver
+Z6 OE;O;6.4a;39
+T_opt1
+Z7 V0S]W:KH28:ioeGQ>Pi?lA2
+R2
+R3
+Z8 =1-f44d30467170-5bbd3f3a-51867-1ae1
+R5
+R6
+T_opt2
+Z9 VQ7=m3kaT3Ve[=jN8FZ;Qj3
+Z10 04 6 4 work lpset7 fast 0
+R3
+Z11 =1-f44d30467170-5bbd3e27-7af9b-1a7c
+R5
+R6
+T_opt3
+Z12 VS@:Y]BJl5;hXnOj8G^[N83
+R2
+R3
+Z13 =1-f44d30467170-5bbd3b26-b43c4-19c7
+R5
+R6
+T_opt4
+Z14 Vj3>dHaK?M:Z80TcH545TS3
+R2
+R3
+Z15 =1-f44d30467170-5bbd350c-330f3-17c7
+R5
+R6
+vcrc_tf
+Z16 IT8;`co?kiPOk]TQEV`Li33
+Z17 V[JhFIJmQS5N88j2nN@RU92
+Z18 w1539124356
+Z19 8../lpset6/crc_tf.v
+Z20 F../lpset6/crc_tf.v
+L0 8
+Z21 OE;L;6.4a;39
+r1
+31
+Z22 o+acc -L mtiAvm -L mtiOvm -L mtiUPF
+Z23 !s100 kQ5SFJ_;>k96WoYSAE^_c1
+!s85 0
+vglbl
+Z24 IB;@1jEXmEfQXL`;Kf0IBZ3
+Z25 VnN]4Gon>inod6>M^M2[SV1
+Z26 w1202685744
+Z27 8/afs/csail.mit.edu/proj/redsocs/Xilinx10.1/ISE/verilog/src/glbl.v
+Z28 F/afs/csail.mit.edu/proj/redsocs/Xilinx10.1/ISE/verilog/src/glbl.v
+L0 5
+R21
+r1
+31
+R22
+Z29 !s100 T?5S;>bN`@zG_25]R_4A33
+!s85 0
+vlpset7
+Z30 Ieaze2VR_i:22QRI9@:mDi3
+Z31 V@5`;WmUBZlQ3g2HWnjcDM3
+Z32 w1539130482
+Z33 8lpset7.v
+Z34 Flpset7.v
+L0 21
+R21
+r1
+31
+R22
+Z35 !s100 R6`4e@ITBKWGJj`n64[Hz1
+!s85 0

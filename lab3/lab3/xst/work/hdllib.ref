@@ -1,0 +1,8 @@
+MO image_coe NULL ./image_coe.v vlg61/image__coe.bin 1541734740
+MO xvga NULL lab3.v vlg02/xvga.bin 1541734740
+MO red_coe NULL ./red_coe.v vlg2D/red__coe.bin 1541734740
+MO lab3 NULL lab3.v vlg52/lab3.bin 1541734740
+MO pong_game NULL lab3.v vlg5D/pong__game.bin 1541734740
+MO debounce NULL lab3.v vlg1D/debounce.bin 1541734740
+MO picture_blob NULL lab3.v vlg32/picture__blob.bin 1541734740
+MO blob NULL lab3.v vlg73/blob.bin 1541734740

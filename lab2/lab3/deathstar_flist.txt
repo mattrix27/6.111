@@ -1,0 +1,13 @@
+# Output products list for <deathstar>
+deathstar.asy
+deathstar.mif
+deathstar.ngc
+deathstar.sym
+deathstar.v
+deathstar.veo
+deathstar.vhd
+deathstar.vho
+deathstar.xco
+deathstar_blk_mem_gen_v2_8_xst_1.ngc_xst.xrpt
+deathstar_flist.txt
+deathstar_xmdf.tcl

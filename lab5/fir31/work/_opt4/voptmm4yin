@@ -1,0 +1,92 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/afs/athena.mit.edu/user/m/t/mtung/6.111/lab5/fir31
+T_opt
+Z1 V=cfcQ=@jMj;C8<CNBZX;:3
+Z2 04 10 4 work fir31_test fast 0
+Z3 04 4 4 work glbl fast 0
+Z4 =1-f44d30467170-5bce1ff5-5cdec-22e0
+Z5 o-quiet -auto_acc_if_foreign -work work -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver
+Z6 OE;O;6.4a;39
+T_opt1
+Z7 VfZmRW@>J`VS]U6kGo]R_J1
+R2
+R3
+Z8 =1-f44d30467170-5bce956a-8e357-2f26
+R5
+R6
+T_opt2
+Z9 VGii3`>0gF4WGWaiVn[::N0
+R2
+R3
+Z10 =1-f44d30467170-5bce968c-7064-2f59
+R5
+R6
+T_opt3
+Z11 VSlW=J7cFkGifL9GiMLNd^0
+R2
+R3
+Z12 =1-f44d30467170-5bce944d-836d7-2ecb
+R5
+R6
+T_opt4
+Z13 VNSbH@CRh0Vza`JL9c>cl]1
+R2
+R3
+Z14 =1-f44d30467170-5bce97bc-a2225-3028
+R5
+R6
+vcoeffs31
+Z15 I[:kkYZ;<W=A<i=:KKT7i61
+Z16 V?D@h_E>QDQk0Z_?cj99J20
+Z17 w1540265601
+Z18 8fir31.v
+Z19 Ffir31.v
+L0 39
+Z20 OE;L;6.4a;39
+r1
+31
+Z21 o+acc -L mtiAvm -L mtiOvm -L mtiUPF
+Z22 !s100 b7e6HnKMmiSe7OQ<hKzS02
+!s85 0
+vfir31
+Z23 IG7k7oo<=l__QAnRHc3=hR1
+Z24 Vnanfn15dTah0^V<Jd`dNC2
+R17
+R18
+R19
+L0 1
+R20
+r1
+31
+R21
+Z25 !s100 ^[7@jX_4OP=^lf<H@ZSgQ0
+!s85 0
+vfir31_test
+Z26 I]9gRf73?Sh:i`34A@n?G@3
+Z27 VMg>TDO5Ef75kilNM7cOQ61
+Z28 w1540231925
+Z29 8../fir31_test.v
+Z30 F../fir31_test.v
+L0 14
+R20
+r1
+31
+R21
+Z31 !s100 5SVB:XgFM4_WMgP2cO;1g3
+!s85 0
+vglbl
+Z32 IB;@1jEXmEfQXL`;Kf0IBZ3
+Z33 VnN]4Gon>inod6>M^M2[SV1
+Z34 w1202685744
+Z35 8/afs/csail.mit.edu/proj/redsocs/Xilinx10.1/ISE/verilog/src/glbl.v
+Z36 F/afs/csail.mit.edu/proj/redsocs/Xilinx10.1/ISE/verilog/src/glbl.v
+L0 5
+R20
+r1
+31
+R21
+Z37 !s100 T?5S;>bN`@zG_25]R_4A33
+!s85 0

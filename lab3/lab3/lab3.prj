@@ -1,0 +1,3 @@
+verilog work "./red_coe.v"
+verilog work "./image_coe.v"
+verilog work "lab3.v"

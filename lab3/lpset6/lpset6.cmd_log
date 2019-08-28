@@ -1,0 +1,14 @@
+xst -ise "/afs/athena.mit.edu/user/m/t/mtung/6.111/lab3/lpset6/lpset6.ise" -intstyle ise -ifn "/afs/athena.mit.edu/user/m/t/mtung/6.111/lab3/lpset6/lpset6.xst" -ofn "/afs/athena.mit.edu/user/m/t/mtung/6.111/lab3/lpset6/lpset6.syr"
+xst -ise "/afs/athena.mit.edu/user/m/t/mtung/6.111/lab3/lpset6/lpset6.ise" -intstyle ise -ifn "/afs/athena.mit.edu/user/m/t/mtung/6.111/lab3/lpset6/lpset6.xst" -ofn "/afs/athena.mit.edu/user/m/t/mtung/6.111/lab3/lpset6/lpset6.syr"
+ngdbuild -ise "/afs/athena.mit.edu/user/m/t/mtung/6.111/lab3/lpset6/lpset6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc2v6000-bf957-4 "lpset6.ngc" lpset6.ngd
+map -ise "/afs/athena.mit.edu/user/m/t/mtung/6.111/lab3/lpset6/lpset6.ise" -intstyle ise -p xc2v6000-bf957-4 -cm area -pr off -k 4 -c 100 -tx off -o lpset6_map.ncd lpset6.ngd lpset6.pcf
+par -ise "/afs/athena.mit.edu/user/m/t/mtung/6.111/lab3/lpset6/lpset6.ise" -w -intstyle ise -ol std -t 1 lpset6_map.ncd lpset6.ncd lpset6.pcf
+trce -ise "/afs/athena.mit.edu/user/m/t/mtung/6.111/lab3/lpset6/lpset6.ise" -intstyle ise -v 3 -s 4 -xml lpset6 lpset6.ncd -o lpset6.twr lpset6.pcf
+bitgen -ise "/afs/athena.mit.edu/user/m/t/mtung/6.111/lab3/lpset6/lpset6.ise" -intstyle ise -f lpset6.ut lpset6.ncd
+xst -ise "/afs/athena.mit.edu/user/m/t/mtung/6.111/lab3/lpset6/lpset6.ise" -intstyle ise -ifn "/afs/athena.mit.edu/user/m/t/mtung/6.111/lab3/lpset6/lpset6.xst" -ofn "/afs/athena.mit.edu/user/m/t/mtung/6.111/lab3/lpset6/lpset6.syr"
+xst -ise "/afs/athena.mit.edu/user/m/t/mtung/6.111/lab3/lpset6/lpset6.ise" -intstyle ise -ifn "/afs/athena.mit.edu/user/m/t/mtung/6.111/lab3/lpset6/lpset6.xst" -ofn "/afs/athena.mit.edu/user/m/t/mtung/6.111/lab3/lpset6/lpset6.syr"
+ngdbuild -ise "/afs/athena.mit.edu/user/m/t/mtung/6.111/lab3/lpset6/lpset6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc2v6000-bf957-4 "lpset6.ngc" lpset6.ngd
+map -ise "/afs/athena.mit.edu/user/m/t/mtung/6.111/lab3/lpset6/lpset6.ise" -intstyle ise -p xc2v6000-bf957-4 -cm area -pr off -k 4 -c 100 -tx off -o lpset6_map.ncd lpset6.ngd lpset6.pcf
+par -ise "/afs/athena.mit.edu/user/m/t/mtung/6.111/lab3/lpset6/lpset6.ise" -w -intstyle ise -ol std -t 1 lpset6_map.ncd lpset6.ncd lpset6.pcf
+trce -ise "/afs/athena.mit.edu/user/m/t/mtung/6.111/lab3/lpset6/lpset6.ise" -intstyle ise -v 3 -s 4 -xml lpset6 lpset6.ncd -o lpset6.twr lpset6.pcf
+bitgen -ise "/afs/athena.mit.edu/user/m/t/mtung/6.111/lab3/lpset6/lpset6.ise" -intstyle ise -f lpset6.ut lpset6.ncd

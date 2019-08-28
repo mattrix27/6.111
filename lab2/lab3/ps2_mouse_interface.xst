@@ -1,0 +1,4 @@
+set -tmpdir "./xst/projnav.tmp"
+elaborate
+-ifn ps2_mouse_interface.prj
+-ifmt mixed
